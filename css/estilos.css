@@ -1,0 +1,1211 @@
+/* RESET */
+
+body{
+	margin:0;
+}
+
+header, nav, section, article, aside, ul, li, span, img, p, a, h1, h2, h3, h4, h5, h6, picture, footer, div, span{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+img{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+a{
+	display:block;
+	text-decoration:none;
+}
+
+a:hover, a:focus, a:visited{
+	text-decoration:none;
+}
+
+/* TIPOGRAFIAS */
+
+@font-face {font-family: "AvantGardEF-BookCond-Regular";
+  src: url("../fonts/AvantGardEF-BookCond-Regular.otf");
+  /*src: url("../fonts/AvantGardEF-Book.eot");
+  src: url("../fonts/AvantGardEF-Book.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/AvantGardEF-Book.woff2") format("woff2"),
+  url("../fonts/AvantGardEF-Book.woff") format("woff"), 
+  url("../fonts/AvantGardEF-Book.ttf") format("truetype"),
+  url("../fonts/AvantGardEF-Book.svg#AvantGardEF-Book") format("svg");*/
+}
+
+@font-face {font-family: "DK Lemon Yellow Sun";
+  src: url("../fonts/DK Lemon Yellow Sun.eot");
+  src: url("../fonts/DK Lemon Yellow Sun?#iefix") format("embedded-opentype"),
+  url("../fonts/DK Lemon Yellow Sun.woff") format("woff"), 
+  url("../fonts/DK Lemon Yellow Sun.ttf") format("truetype"),
+  url("../fonts/DK Lemon Yellow Sun.svg#DK Lemon Yellow Sun") format("svg");
+}
+
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('../fonts/BebasNeue.eot');
+	src: local('☺'), url('fonts/BebasNeue.woff') format('woff'), url('../fonts/BebasNeue.ttf') format('truetype'), url('../fonts/BebasNeue.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'solmusic';
+    src:    url('../fonts/sol-music.eot?ewc0en');
+    src:    url('../fonts/sol-music.eot?ewc0en#iefix') format('embedded-opentype'),
+        url('../fonts/sol-music.ttf?ewc0en') format('truetype'),
+        url('../fonts/sol-music.woff?ewc0en') format('woff'),
+        url('../fonts/sol-music.svg?ewc0en#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century751 No2 BT Bold Italic';
+    src:url('../fonts/Century751 No2 BT Bold Italic.eot?ewc0en');
+    src:url('../fonts/Century751 No2 BT Bold Italic.eot?ewc0en#iefix') format('embedded-opentype'),
+        url('../fonts/Century751 No2 BT Bold Italic.ttf?ewc0en') format('truetype'),
+        url('../fonts/Century751 No2 BT Bold Italic.woff?ewc0en') format('woff'),
+        url('../fonts/Century751 No2 BT Bold Italic.svg?ewc0en#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century751 No2 BT Bold';
+    src:url('../fonts/Century751 No2 BT Bold.eot?ewc0en');
+    src:url('../fonts/Century751 No2 BT Bold.eot?ewc0en#iefix') format('embedded-opentype'),
+        url('../fonts/Century751 No2 BT Bold.ttf?ewc0en') format('truetype'),
+        url('../fonts/Century751 No2 BT Bold.woff?ewc0en') format('woff'),
+        url('../fonts/Century751 No2 BT Bold.svg?ewc0en#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century751 No2 BT Italic';
+    src:url('../fonts/Century751 No2 BT Italic.eot?ewc0en');
+    src:url('../fonts/Century751 No2 BT Italic.eot?ewc0en#iefix') format('embedded-opentype'),
+        url('../fonts/Century751 No2 BT Italic.ttf?ewc0en') format('truetype'),
+        url('../fonts/Century751 No2 BT Italic.woff?ewc0en') format('woff'),
+        url('../fonts/Century751 No2 BT Italic.svg?ewc0en#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century751 No2 BT Roman';
+    src:url('../fonts/Century751 No2 BT Roman.eot?ewc0en');
+    src:url('../fonts/Century751 No2 BT Roman.eot?ewc0en#iefix') format('embedded-opentype'),
+        url('../fonts/Century751 No2 BT Roman.ttf?ewc0en') format('truetype'),
+        url('../fonts/Century751 No2 BT Roman.woff?ewc0en') format('woff'),
+        url('../fonts/Century751 No2 BT Roman.svg?ewc0en#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* HEADER */
+
+body{
+	background:url(../images/background_solMusic.jpg) no-repeat center 0px;
+	background-size:cover;
+}
+
+.contenedor{
+	display:block;
+	margin:0 auto;
+	width:100%;
+	max-width:1366px;
+	height:auto;
+	background-color:#FFF;
+}
+
+.cabecera{
+	display:block;
+	background:#000;
+	height:138px;
+	margin-bottom:2px;
+}
+
+.cabecera .col-md-4{
+	height:138px;
+	padding-top:48px;
+	padding-right:39px;
+}
+
+.cabecera .logo{
+	display:block;
+	width:auto;
+	height:66px;
+	text-align:right;
+}
+
+.cabecera .logo img{
+	height:66px;
+}
+
+.menu{
+	display:block;
+	overflow:hidden;
+}
+
+.menu ul{
+	list-style-type:none;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.menu .redes_sociales_cabecera{
+	display:inline-block;
+	vertical-align: top;
+}
+
+.menu .redes_sociales_cabecera div{
+	display:inline-block;
+	vertical-align: top;
+	margin-right:5px;
+}
+
+.menu .redes_sociales_cabecera div a{
+	display:block;
+	margin-top: -34px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	opacity:1;
+}
+
+.menu .redes_sociales_cabecera div:first-child a:hover{
+	margin-top: -15px;
+	opacity:0.8;
+}
+
+.menu .redes_sociales_cabecera div:last-child a:hover{
+	margin-top: -7px;
+	opacity:0.8;
+}
+
+.menu .redes_sociales_cabecera div:last-child{
+	margin-right:0px;
+}
+
+.menu ul li{
+	display:inline-block;
+	width:103px;
+	background:#000;
+	transition:background 0.2s ease;
+	-moz-transition:background 0.2s ease;
+	-o-transition:background 0.2s ease;
+	-ms-transition:background 0.2s ease;
+	-webkit-transition:background 0.2s ease;
+}
+
+.menu ul li:hover, .menu ul li.active{
+	background:#FFF;
+}
+
+.menu ul li a{
+	color:#FFF;
+	text-align:center;
+	height:100%;
+	font-family:'AvantGardEF-BookCond-Regular';
+	font-size:15px;
+	letter-spacing:0.5px;
+	line-height:216px;
+	transition:padding-right 0.6s ease, background 0.3s ease;
+	-moz-transition:padding-right 0.6s ease, background 0.3s ease;
+	-o-transition:padding-right 0.6s ease, background 0.3s ease;
+	-ms-transition:padding-right 0.6s ease, background 0.3s ease;
+	-webkit-transition:padding-right 0.6s ease, background 0.3s ease;
+	background:url(../images/icono-guitarra.png) no-repeat 150px 0px;
+}
+
+.menu ul li a:hover, .menu ul li.active a{
+	color:#000;
+	padding-right:26px;
+	background:url(../images/icono-guitarra.png) no-repeat 72px 0px;
+}
+
+.slides{
+	display:block;
+	overflow:hidden;
+	height:auto;
+	background:#000;
+}
+
+.slides ul, .slides .controles_slider ul{
+	list-style-type: none;
+}
+
+.slides ul li a img{
+	width:100%;
+	max-width:1366px;
+	height:auto;
+}
+
+.slides ul li a{
+	opacity:1;
+	transition:all 0.7s ease;
+	-moz-transition:all 0.7s ease;
+	-o-transition:all 0.7s ease;
+	-ms-transition:all 0.7s ease;
+	-webkit-transition:all 0.7s ease;
+}
+
+.slides ul li a:hover{
+	opacity:0.6;
+}
+
+.slides .controles_slider{
+	background:#000;
+	height:42px;
+}
+
+.slides .controles_slider ul{
+	width:100%;
+	max-width:300px;
+	margin:0 auto;
+	line-height:42px;
+	text-align:center;
+}
+
+.slides .controles_slider ul li{
+	display:inline-block;
+}
+
+.slides .controles_slider ul li a{
+	width:9px;
+	height:9px;
+	background:#FFF;
+	transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+}
+
+.slides .controles_slider ul li a:hover, .slides .controles_slider ul li a.control_active{
+	background:#FFCC00;
+}
+
+/* HOME */
+
+.seccion_nosotros{
+	display:block;
+	height:301px;
+	background:#FFF url(../images/seccion_nosotros_bg.jpg) no-repeat 0px 0px;
+	background-size:100%;
+	overflow:hidden;
+	padding-right:0px;
+	padding-left:0px;
+}
+
+.seccion_nosotros .seccion_nosotros-logo{
+	padding-top:24px;
+}
+
+.seccion_nosotros .icon-logo-sol-music{
+	font-family:'solmusic';
+	font-size:58px;
+	color:#000;
+}
+
+.seccion_nosotros .icon-logo-sol-music:before{
+	content: "\e900";
+}
+
+/*.seccion_nosotros .seccion_nosotros-logo img{
+	height:auto;
+}*/
+
+.seccion_nosotros .texto_nosotros{
+	font-family:'DK Lemon Yellow Sun';
+	font-size:21px;
+	color:#333;
+	text-align:justify;
+	margin-top:35px;
+}
+
+.seccion_nosotros .texto_nosotros:nth-child(2){
+	margin-top:20px;
+}
+
+.seccion_servicios{
+	display: block;
+	background: #FFF;
+	height: auto;
+	padding-top:2.5px;
+	padding-right: 6px;
+	padding-left: 7px;
+}
+
+.seccion_servicios article{
+	display:inline-block;
+	/*max-width:441px;*/
+	height:auto;
+	position:relative;
+}
+
+.seccion_servicios article:first-child{
+	padding-left: 0px;
+    padding-right: 5px;
+}
+
+.seccion_servicios article:last-child{
+	padding-left:6px;
+	padding-right:0px;
+}
+
+.seccion_servicios article:nth-child(2){
+	padding-left: 3px;
+	padding-right: 2px;
+}
+
+.seccion_servicios article a div{
+	position:relative;
+	overflow:hidden;
+}
+
+.seccion_servicios article a{
+	transition:opacity 0.3s ease;
+	-moz-transition:opacity 0.3s ease;
+	-o-transition:opacity 0.3s ease;
+	-ms-transition:opacity 0.3s ease;
+	-webkit-transition:opacity 0.3s ease;
+	opacity:1;
+}
+
+.seccion_servicios article a:hover{
+	opacity:0.9;
+}
+
+.seccion_servicios article a img{
+	width:100%;
+}
+
+.seccion_servicios article a div span{
+	position: absolute;
+	background: #000;
+	height: 57px;
+	width: 100%;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	font-family: 'BebasNeue';
+	font-size: 40px;
+	color: #FFF;
+	text-align: center;
+	line-height: 62px;
+	transition:font-size 0.2s ease;
+	-moz-transition:font-size 0.2s ease;
+	-o-transition:font-size 0.2s ease;
+	-ms-transition:font-size 0.2s ease;
+	-webkit-transition:font-size 0.2s ease;
+}
+
+.seccion_servicios article a div img{
+	transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	-webkit-transition:all 0.4s ease;
+	transform:scale(1,1);
+	-moz-transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-ms-transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	transform-origin:center top;
+}
+
+.seccion_servicios article a:hover div img{
+	transform:scale(1.04,1.04);
+	-moz-transform:scale(1.04,1.04);
+	-o-transform:scale(1.04,1.04);
+	-ms-transform:scale(1.04,1.04);
+	-webkit-transform:scale(1.04,1.04);
+}
+
+.seccion_servicios article a:hover div span{
+	font-size:43px;
+}
+
+.seccion_contacto{
+	display: block;
+	background: #FFF;
+	height: auto;
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.formulario_contacto{
+	display:block;
+	margin:0 auto;
+	width:100%;
+	max-width:825px;
+	height:auto;
+	padding-right:0px;
+	padding-left:0px;
+}
+
+.formulario_contacto h1{
+	font-family:'BebasNeue';
+	font-size:46px;
+	color:#000;
+	margin:0 0 27px 0;
+	padding:0px;
+}
+
+.formulario_contacto form.form-horizontal{
+	display:block;
+	margin-bottom:0px;
+}
+
+.formulario_contacto .form-horizontal div:first-child .form-group{
+	margin-right: 0px;
+}
+
+.formulario_contacto .form-horizontal div:last-child .form-group{
+	margin-left: 0px;
+}
+
+.formulario_contacto .form-horizontal div .form-group{
+	margin-bottom:21px;
+}
+
+.formulario_contacto .form-horizontal .form-group input, .formulario_contacto .form-horizontal .form-group textarea{
+	width:100%;
+	border:1px solid #b3b3b3;
+	background:#f9f9f9;
+	border-radius:0px;
+	/*box-shadow: 0px 0px 0px 0px #FFF;*/
+	font-family:'BebasNeue';
+	font-size:24px;
+	color:#666;
+	line-height:43px;
+}
+
+.formulario_contacto .form-horizontal .form-group input{
+	height:43px;
+}
+
+.formulario_contacto .form-horizontal .form-group textarea{
+	height:107px;
+	resize:none;
+}
+
+.formulario_contacto .form-horizontal .form-group input::-webkit-input-placeholder{
+	color:#b3b3b3;
+}
+
+.contenedor-botones{
+	display:block;
+	text-align:center;
+	margin-top:19px;
+}
+
+.contenedor-botones button{
+	width:100%;
+	max-width:115px;
+	height:37px;
+	border:none;
+	background:#000;
+	font-family:'BebasNeue';
+	font-size:26px;
+	color:#FFF;
+	margin-right:14px;
+}
+
+/* TIENDA MUSICAL */
+
+.tienda_productos{
+	display:block;
+	position:relative;
+	height:auto;
+	padding:0;
+}
+
+.seccion_navegacion_filtros{
+	display:block;
+	position:relative;
+	height:auto;
+	padding-top:50px;
+	padding-left:49px;
+}
+
+.bloque_fijo{
+	position:relative;
+}
+
+.productos_categoria_titulo{
+	display:block;
+	width:100%;
+	max-width:301px;
+	height:42px;
+	background:#000;
+	margin-bottom:41px;
+}
+
+.productos_categoria_titulo h1{
+	display: block;
+    line-height: 45px;
+    font-family: 'BebasNeue';
+    color: #FFF;
+    font-size: 34px;
+    text-align: left;
+    padding-left:25px;
+}
+
+.contenedor_menu_productos{
+	display:block;
+	margin-bottom:45px;
+}
+
+.menu_categorias_productos, .menu_sub_categorias_productos{
+	display:block;
+	list-style-type: none;
+	margin-left:25px;
+}
+
+/*.menu_categorias_productos{
+	width: 100%;
+    max-width: 216px;
+}*/
+
+.menu_sub_categorias_productos{
+	display:none;
+}
+
+.menu_categorias_productos li a, .menu_sub_categorias_productos li a{
+	font-family:'AvantGardEF-BookCond-Regular';
+	color:#000;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	margin-left:0px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	background:#FFF;
+	padding-left:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.menu_categorias_productos li a:hover, .menu_sub_categorias_productos li a:hover{
+	margin-left:20px;
+	background:#000;
+	color:#FFF;
+	padding-left:20px;
+}
+
+.menu_categorias_productos li{
+	font-size:16px;
+	margin-bottom:7px;
+}
+
+.menu_sub_categorias_productos li{
+	font-size:14px;
+	margin-bottom:5px;
+}
+
+.menu_sub_categorias_productos li:first-child{
+	margin-top:10px;
+}
+
+.contenedor_filtros_busqueda{
+	display:block;
+}
+
+.filtros_busqueda_titulo{
+	width:100%;
+	max-width:301px;
+	height:42px;
+	background:#e6e6e6;
+	margin-bottom: 28px;
+}
+
+.filtros_busqueda_titulo h1{
+	font-family:'AvantGardEF-BookCond-Regular';
+	font-size:18px;
+	font-weight:bold;
+	color:#1A1A1A;
+	line-height:43px;
+	height:42px;
+	text-align:left;
+	padding-left:25px;
+	letter-spacing:2px;
+}
+
+.formulario_filtros_busqueda{
+	display:block;
+	padding-left:25px;
+}
+
+.formulario_filtros_busqueda .filtro_marcas, .formulario_filtros_busqueda .filtro_precios, .formulario_filtros_busqueda .filtro_colores{
+	display:block;
+	font-family:'AvantGardEF-BookCond-Regular';
+	letter-spacing:2px;
+}
+
+.formulario_filtros_busqueda label{
+	text-transform:uppercase;
+	font-size:15px;
+	color:#000;
+	margin-bottom:12px;
+}
+
+.formulario_filtros_busqueda select{
+	font-size:15px!important;
+	border-color:#CCC!important;
+	border-radius:0px!important;
+	width:100%!important;
+	max-width:245px!important;
+	height:32px!important;
+}
+
+.formulario_filtros_busqueda .filtro_marcas, .formulario_filtros_busqueda .filtro_precios, .formulario_filtros_busqueda .filtro_colores{
+	margin-bottom:20px!important;
+}
+
+.formulario_filtros_busqueda .filtro_colores ul{
+	list-style-type:none;
+}
+
+.formulario_filtros_busqueda .filtro_colores ul li{
+	display:inline-block;
+	margin-right:7px;
+}
+
+.formulario_filtros_busqueda .filtro_colores ul li a{
+	width:19px;
+	height:19px;
+}
+
+.formulario_filtros_busqueda .filtro_colores ul li a#colorRojo{
+	background:#FF0000;
+}
+
+.formulario_filtros_busqueda .filtro_colores ul li a#colorAzul{
+	background:#336699;
+}
+
+.formulario_filtros_busqueda .filtro_colores ul li a#colorNegro{
+	background:#000000;
+}
+
+.formulario_filtros_busqueda .filtro_colores ul li a#colorDorado{
+	background:#CC9933;
+}
+
+.formulario_filtros_busqueda .filtro_colores ul li a#colorGris{
+	background:#CCCCCC;
+}
+
+.formulario_filtros_busqueda .filtro_colores ul li a#colorBlanco{
+	background:#FFF;
+	border:1px solid #CCC;
+}
+
+.seccion_tienda_items{
+	display:block;
+	position:relative;
+	padding-top:50px;
+	padding-right:49px;
+	height:auto;
+}
+
+.contenedor_navegacion_productos{
+	display:block;
+	width:100%;
+	height:auto;
+	margin-bottom:42px;
+}
+
+.contenedor_navegacion_productos .filtro_orden_listado_productos{
+	display: block;
+    width: 100%;
+    max-width: 329px;
+    float: right;
+    font-family: 'AvantGardEF-BookCond-Regular';
+    font-size: 15px;
+    letter-spacing: 2px;
+    height: auto;
+ }
+
+.contenedor_navegacion_productos .filtro_orden_listado_productos form label{
+	float:left;
+	margin-right:10px;
+	line-height:31px;
+}
+
+.contenedor_navegacion_productos .filtro_orden_listado_productos form select{
+	width:100%;
+	max-width:214px;
+	height:32px;
+	border:1px solid #CCC!important;
+	padding-left:10px;
+	font-size: 15px!important;
+	border-radius:0px!important;
+}
+
+.contenedor_listado_productos{
+	display:block;
+}
+
+.contenedor_listado_productos ul{
+	list-style-type: none;
+}
+
+.contenedor_listado_productos ul li{
+	display:inline-block;
+	margin-right:4.5%;
+	margin-bottom:36px;
+	width:30%;
+	max-width:287px;
+	height:auto;
+	background:#CCC;
+	padding:0;
+}
+
+@media screen and (max-width:1154px){
+
+	.contenedor_listado_productos ul li{
+		margin-right:4.4%;
+	}
+
+}
+
+@media screen and (max-width:991px){
+
+	.contenedor_listado_productos ul li{
+		width:50%;
+	}
+
+	.contenedor_listado_productos ul li:nth-child(even){
+		margin-right:0%;
+	}
+
+	.contenedor_listado_productos ul li:nth-child(3){
+		margin-right:4.4%!important;
+	}
+
+}
+
+.contenedor_listado_productos ul li:nth-child(3), .contenedor_listado_productos ul li:nth-child(6), .contenedor_listado_productos ul li:nth-child(9){
+	margin-right:0px;
+}
+
+.contenedor_listado_productos ul li a{
+	position:relative;
+	border:1px solid #CCC;
+	overflow:hidden;
+	font-family:'BebasNeue';
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.contenedor_listado_productos ul li a:hover{
+	box-shadow:0px 12px 23px -8px #666;
+	border:1px solid #a1a1a1;
+	opacity:0.9;
+}
+
+.contenedor_listado_productos ul li a span.producto_img{
+	display:block;
+	position:relative;
+	overflow:hidden;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.contenedor_listado_productos ul li a:hover span.producto_img{
+	opacity:0.9;
+}
+
+.contenedor_listado_productos ul li a span.producto_img img{
+	width:100%;
+}
+
+.contenedor_listado_productos ul li a span.producto_nombre{
+	display:block;
+	width:100%;
+	max-width:287px;
+	height:37px;
+	background:#000;
+	color:#FFF;
+	text-align:center;
+	font-size:25px;
+	line-height:40px;
+	text-transform:uppercase;
+}
+
+.contenedor_listado_productos ul li a span.producto_precio{
+	display:block;
+	text-align:center;
+	height:auto;
+	color:#000;
+	height:100%;
+	max-height:72px;
+	background:#FFF;
+	position:relative;
+	left:0%;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	text-transform:uppercase;
+}
+
+::-webkit-scrollbar{
+	width:7px;
+}
+
+::-webkit-scrollbar-track {
+    background:#FFF;
+    border:1px solid #CCC;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#000;
+
+}
+
+/*::-webkit-scrollbar-button:vertical:decrement, ::-webkit-scrollbar-button:vertical:increment {
+	width:7px;
+	background:#FFF;
+	-webkit-box-shadow: inset 0 0 2px #666;
+}*/
+
+.contenedor_listado_productos ul li a:hover span.producto_precio{
+	left:-100%;
+}
+
+.precios, .descuento_cantidad{
+	display: inline-block;
+	height:auto;
+	vertical-align: middle;
+	padding: 0 12px 0 12px;
+	position: relative;
+	top: 50%;
+	margin-top: -43px;
+	text-align: right;
+}
+
+.precios{
+	border-right:1px solid #000;
+}
+
+.precio_normal, .precio_oferta{
+	display:block;
+}
+
+.precio_normal{
+	color: #CCC;
+	text-decoration: line-through;
+	font-size: 19px;
+	margin-bottom: -6px;
+}
+
+.precio_oferta{
+	font-size: 23px;
+}
+
+.descuento_cantidad{
+	color: #FF0000;
+	font-size: 58px;
+	padding-top: 5px;
+}
+
+.contenedor_listado_productos ul li a span.ver_detalle_producto{
+	position:absolute;
+	bottom:0%;
+	left:100%;
+	width:100%;
+	max-width:285px;
+	height:100%;
+	max-height:72px;
+	background:#FFFFFF;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.contenedor_listado_productos ul li a:hover span.ver_detalle_producto{
+	left:0%;
+}
+
+.btn_verDetalles{
+	display:block;
+	position:relative;
+	top:50%;
+	bottom:0%;
+	margin:-16.5px auto 0 auto;
+	background:#FF0000;
+	width:100%;
+	max-width:217px;
+	height:33px;
+	line-height:33px;
+	text-align:center;
+	border:0px;
+	color:#FFF;
+	font-family:'BebasNeue';
+	font-size:19px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.btn_verDetalles:hover{
+	box-shadow:1px 1px 15px 2px #A30000 inset;
+}
+
+.oculto{
+	display:none;
+}
+
+.pt-53{
+	padding-top:53px;
+}
+
+.sin_borde{
+	border:0px!important;
+}
+
+.sin_borde .precio_normal{
+	color:#000!important;
+	text-decoration:none!important;
+	font-size:24px!important;
+}
+
+.contenedor_paginador{
+	display:block;
+	width:100%;
+}
+
+.paginador_listado_productos{
+	display:block;
+	float:right;
+	height:auto;
+	font-family: 'AvantGardEF-BookCond-Regular';
+	font-size:17px;
+	margin-top:25px;
+	margin-bottom:52px;
+	letter-spacing:1px;
+}
+
+.paginador_listado_productos .pagina_previa{
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginador_listado_productos ul{
+	list-style-type:none;
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginador_listado_productos ul li{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:2px;
+}
+
+.paginador_listado_productos ul li a{
+	display:block;
+	color:#000;
+}
+
+.paginador_listado_productos ul li a:hover{
+	font-weight:600;
+	text-decoration:underline;
+}
+
+.paginador_listado_productos ul li a.pagina_actual{
+	font-weight:600;
+	text-decoration:underline;
+}
+
+.paginador_listado_productos .pagina_siguiente{
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginador_listado_productos .pagina_ultima{
+	display:inline-block;
+	margin-right:0px;
+}
+
+.pagina_previa a, .pagina_siguiente a, .pagina_ultima a{
+	color:#000;
+}
+
+.pagina_previa a:hover, .pagina_siguiente a:hover, .pagina_ultima a:hover{
+	font-weight:600;
+	text-decoration:underline;
+}
+
+/* ACADEMIA SOL MUSIC */
+
+.academia_productos{
+	display:block;
+	height:300px;
+}
+
+.academia_productos ul{
+	display:block;
+	list-style-type: none;
+}
+
+.academia_productos ul li{
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+.academia_productos ul li a{
+	display:block;
+	font-family:'Century751 No2 BT Bold Italic';
+	font-size:25px;
+	color:#000;
+} 
+
+/* FOOTER */
+
+.piepagina{
+	display:block;
+	width:100%;
+	height:auto;
+	background:#000;
+}
+
+.piepagina .contenedor-elementosFooter{
+	display:block;
+	margin:0 auto;
+	width:100%;
+	max-width:825px;
+	height:auto;
+	padding-bottom:30px;
+}
+
+.piepagina .contenedor-elementosFooter div div.icon-logo-sol-music{
+	font-family:'solmusic';
+	font-size:58px;
+	color:#FFF;
+	padding-top: 123px;
+    padding-left: 64px;
+}
+
+.piepagina .contenedor-elementosFooter .icon-logo-sol-music:before{
+	content: "\e900";
+}
+
+.piepagina .contenedor-elementosFooter div:first-child{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2){
+	padding-top:55px;
+	padding-left:0px;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2) div.menu-footer{
+	border-right: 1px solid #FFF;
+	padding-right: 71px;
+	width: 100%;
+	max-width: 156px;
+	float:left;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2) div.menu-footer h1{
+	font-family:'BebasNeue';
+	font-size:31px;
+	color:#FFF;
+	margin-bottom:18px;
+}
+
+.contenedor-elementosFooter div:nth-child(2) ul{
+	list-style-type:none;
+}
+
+.contenedor-elementosFooter div:nth-child(2) ul li a{
+	color:#FFF;
+	font-family:'AvantGardEF-BookCond-Regular';
+	font-size:19px;
+	margin-bottom:3px;
+	letter-spacing: 0.5px;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2) div.redes-sociales-footer{
+	width: 100%;
+	max-width: 212px;
+	float:left;
+	padding-top:0px;
+	padding-left:71px;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2) div.redes-sociales-footer h1{
+	font-family:'BebasNeue';
+	font-size:31px;
+	color:#FFF;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2) div.redes-sociales-footer .botones-redes-sociales{
+	position:relative;
+	padding:0px;
+	height:171px;
+	overflow:hidden;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2) div.redes-sociales-footer .botones-redes-sociales div:first-child a{
+	position:absolute;
+	top:15px;
+	left:0px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2) div.redes-sociales-footer .botones-redes-sociales div:last-child a{
+	position:absolute;
+	top:6px;
+	left:50px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	opacity:1;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2) div.redes-sociales-footer .botones-redes-sociales div:first-child a:hover{
+	top:30px;
+	opacity:0.8;
+}
+
+.piepagina .contenedor-elementosFooter div:nth-child(2) div.redes-sociales-footer .botones-redes-sociales div:last-child a:hover{
+	top:32px;
+	opacity:0.8;
+}
