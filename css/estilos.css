@@ -1068,26 +1068,116 @@ body{
 
 .academia_productos{
 	display:block;
-	height:300px;
-}
-
-.academia_productos ul{
-	display:block;
-	list-style-type: none;
-}
-
-.academia_productos ul li{
-	display:inline-block;
-	margin:0;
+	height:auto;
+	margin-top:45px;
 	padding:0;
 }
 
-.academia_productos ul li a{
+.contenedor_cursos_academia{
+	display:block;
+	margin:0 auto;
+	width:100%;
+	max-width:1211px;
+}
+
+.contenedor_cursos_academia ul{
+	display:block;
+	list-style-type: none;
+	margin-bottom:54px;
+}
+
+.contenedor_cursos_academia ul li{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	width:19.7%;
+	height:auto;
+	text-align:center;
+	border-left:2px solid #000;
+	padding-left:5px;
+	padding-right:1px;
+}
+
+.contenedor_cursos_academia ul li:last-child{
+	border-right:2px solid #000;
+	padding-right:5px;
+}
+
+.contenedor_cursos_academia ul li a{
 	display:block;
 	font-family:'Century751 No2 BT Bold Italic';
 	font-size:25px;
 	color:#000;
+	background:#FFF;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.contenedor_cursos_academia ul li a:hover, .contenedor_cursos_academia ul li a:visited, .contenedor_cursos_academia ul li a.active{
+	background:#000;
+	color:#FFF;
 } 
+
+.contenido_cursos_academia{
+	display:block;
+	height:auto;
+	box-sizing:border-box;
+	padding:30px 30px;
+	border:3px solid #000;
+	margin-bottom:30px;
+}
+
+.contenido_cursos_academia:last-child{
+	margin-bottom:0px;
+}
+
+.contenido_cursos_academia.color_melon{
+	background:rgba(240,129,67,0.4);
+}
+
+.contenido_cursos_academia.color_azulViolaceo{
+	background:rgba(116,129,135,0.4);
+}
+
+.contenido_cursos_academia.color_violeta{
+	background:rgba(174,74,132,0.4);
+}
+
+.contenido_cursos_academia h2{
+	font-family:'BebasNeue';
+	font-size:24px;
+	color:#000;
+}
+
+.contenido_cursos_academia span{
+	display:block;
+	font-family:'AvantGardEF-BookCond-Regular';
+	font-size:19px;
+	color:#000;
+	margin-top:10px;
+	margin-bottom:17px;
+}
+
+.contenido_cursos_academia span:last-child{
+	margin-bottom:0px;
+}
+
+.img_curso{
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+.img_curso img{
+	border:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:auto;
+}
 
 /* FOOTER */
 
