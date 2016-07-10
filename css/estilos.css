@@ -1075,15 +1075,17 @@ body{
 
 .contenedor_cursos_academia{
 	display:block;
-	margin:0 auto;
-	width:100%;
+	height:auto;
+}
+
+.contenedor_cursos_academia nav{
+	display:block;
+	margin:0 auto 54px auto;
 	max-width:1211px;
 }
 
 .contenedor_cursos_academia ul{
-	display:block;
 	list-style-type: none;
-	margin-bottom:54px;
 }
 
 .contenedor_cursos_academia ul li{
@@ -1119,40 +1121,78 @@ body{
 .contenedor_cursos_academia ul li a:hover, .contenedor_cursos_academia ul li a:visited, .contenedor_cursos_academia ul li a.active{
 	background:#000;
 	color:#FFF;
+}
+
+#piano{
+	display:none;
+	height:auto;
 } 
 
-.contenido_cursos_academia{
+#piano .contenido_cursos_academia{
 	display:block;
+	max-width:1211px;
+	margin:0 auto 30px auto;
 	height:auto;
-	box-sizing:border-box;
-	padding:30px 30px;
+	box-sizing:border-box;	
 	border:3px solid #000;
+	padding:30px 30px;
+}
+
+#violin{
+	display:block;
+	margin:0 auto 54px auto;
+	box-sizing:border-box;
+	height:auto;
+	max-width:1211px;
+}
+
+#violin .contenedor{
+	display:inline-block;
+	width:58%;
+	vertical-align:top;
+}
+
+#violin .contenido_cursos_academia{
+	border:3px solid #000;
+	padding:30px 30px;
 	margin-bottom:30px;
 }
 
-.contenido_cursos_academia:last-child{
+#violin .contenido_cursos_academia.color_celeste{
+	background:rgba(162,217,247,0.5);
+}
+
+#violin .contenido_cursos_academia.color_verde{
+	background:rgba(219,226,133,0.5);
+}
+
+#violin .contenido_cursos_academia.color_naranja{
+	background:rgba(239,127,26,0.5);
+}
+
+#piano .contenido_cursos_academia:last-child, #violin .contenido_cursos_academia:last-child{
 	margin-bottom:0px;
 }
 
-.contenido_cursos_academia.color_melon{
+#piano .contenido_cursos_academia.color_melon{
 	background:rgba(240,129,67,0.4);
 }
 
-.contenido_cursos_academia.color_azulViolaceo{
+#piano .contenido_cursos_academia.color_azulViolaceo{
 	background:rgba(116,129,135,0.4);
 }
 
-.contenido_cursos_academia.color_violeta{
+#piano .contenido_cursos_academia.color_violeta{
 	background:rgba(174,74,132,0.4);
 }
 
-.contenido_cursos_academia h2{
+#piano .contenido_cursos_academia h2, #violin .contenido_cursos_academia h2, #guitarra .contenido_cursos_academia h2, #bateria .contenido_cursos_academia h2, #canto .contenido_cursos_academia h2{
 	font-family:'BebasNeue';
 	font-size:24px;
 	color:#000;
 }
 
-.contenido_cursos_academia span{
+#piano .contenido_cursos_academia span, #violin .contenido_cursos_academia span, #guitarra .contenido_cursos_academia span, #bateria .contenido_cursos_academia span, #canto .contenido_cursos_academia span{
 	display:block;
 	font-family:'AvantGardEF-BookCond-Regular';
 	font-size:19px;
@@ -1161,22 +1201,31 @@ body{
 	margin-bottom:17px;
 }
 
-.contenido_cursos_academia span:last-child{
+#piano .contenido_cursos_academia span:last-child, #violin .contenido_cursos_academia span:last-child, #guitarra .contenido_cursos_academia span:last-child, #bateria .contenido_cursos_academia span:last-child, #canto .contenido_cursos_academia span:last-child{
 	margin-bottom:0px;
 }
 
-.img_curso{
+#piano .img_curso{
 	display:block;
 	width:100%;
 	height:auto;
 }
 
-.img_curso img{
+#piano .img_curso img, #violin .img_curso img{
 	border:0;
 	margin:0;
 	padding:0;
 	width:100%;
 	height:auto;
+	overflow:hidden;
+}
+
+#violin .img_curso{
+	display:inline-block;
+	width:41%;
+	height:848px;
+	background:#fefefe;
+	padding-top: 67px;
 }
 
 /* FOOTER */
