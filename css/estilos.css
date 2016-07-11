@@ -1139,6 +1139,14 @@ body{
 }
 
 #violin{
+	display:none;
+	margin:0 auto 54px auto;
+	box-sizing:border-box;
+	height:auto;
+	max-width:1211px;
+}
+
+#guitarra{
 	display:block;
 	margin:0 auto 54px auto;
 	box-sizing:border-box;
@@ -1152,25 +1160,31 @@ body{
 	vertical-align:top;
 }
 
-#violin .contenido_cursos_academia{
+#guitarra .contenedor{
+	display:inline-block;
+	width:56%;
+	vertical-align:top;
+}
+
+#violin .contenido_cursos_academia, #guitarra .contenido_cursos_academia{
 	border:3px solid #000;
 	padding:30px 30px;
 	margin-bottom:30px;
 }
 
-#violin .contenido_cursos_academia.color_celeste{
+#violin .contenido_cursos_academia.color_celeste, #guitarra .contenido_cursos_academia.color_celeste{
 	background:rgba(162,217,247,0.5);
 }
 
-#violin .contenido_cursos_academia.color_verde{
+#violin .contenido_cursos_academia.color_verde, #guitarra .contenido_cursos_academia.color_verde{
 	background:rgba(219,226,133,0.5);
 }
 
-#violin .contenido_cursos_academia.color_naranja{
+#violin .contenido_cursos_academia.color_naranja, #guitarra .contenido_cursos_academia.color_naranja{
 	background:rgba(239,127,26,0.5);
 }
 
-#piano .contenido_cursos_academia:last-child, #violin .contenido_cursos_academia:last-child{
+#piano .contenido_cursos_academia:last-child, #violin .contenido_cursos_academia:last-child, #guitarra .contenido_cursos_academia:last-child{
 	margin-bottom:0px;
 }
 
@@ -1211,7 +1225,7 @@ body{
 	height:auto;
 }
 
-#piano .img_curso img, #violin .img_curso img{
+#piano .img_curso img, #violin .img_curso img, #guitarra .img_curso img{
 	border:0;
 	margin:0;
 	padding:0;
@@ -1226,6 +1240,13 @@ body{
 	height:848px;
 	background:#fefefe;
 	padding-top: 67px;
+}
+
+#guitarra .img_curso{
+	display:inline-block;
+	width:43%;
+	height:1090px;
+	background:#fefefe url(../images/academia/img_academia_seccion_guitarra.jpg) no-repeat -55px 148px;
 }
 
 /* FOOTER */
