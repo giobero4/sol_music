@@ -1516,7 +1516,7 @@ body{
     line-height: 45px;
     font-family: 'BebasNeue';
     color: #FFF;
-    font-size: 34px;
+    font-size: 31px;
     text-align: left;
     padding-left:25px;
 }
@@ -1610,8 +1610,98 @@ body{
 	display:block;
 	position:relative;
 	padding-top:50px;
+	padding-left:34px;
 	padding-right:49px;
 	height:auto;
+}
+
+.post_titulo a.post_permalink{
+	font-family:'BebasNeue';
+	font-size:27px;
+	color:#000;
+}
+
+.post_titulo a.post_permalink:hover{
+	text-decoration:underline;
+}
+
+.post_img{
+	margin:21px 0 21px 0;
+}
+
+.post_img img{
+	width:100%;
+	height:auto;
+}
+
+.post_descripcion_breve, .post_descripcion_completa{
+	text-align: justify;
+    color: #4D4D4D;
+    font-family: 'AvantGardEF-BookCond-Regular';
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing:0.6px;
+}
+
+.post_descripcion_completa span p{
+	margin-bottom:15px;
+}
+
+.leer_mas{
+	color:#000;
+	display:inline-block;
+}
+
+.leer_mas:hover{
+	color:#000;
+	text-decoration: underline;
+}
+
+.linea_divisor_posts{
+	display:block;
+	margin:37px 0 28px 0;
+}
+
+.contenedor_post{
+	display:block;
+}
+
+.paginador_blog_entradas{
+	margin-top:-20px;
+}
+
+.redes_sociales_opciones{
+	display:block;
+	text-align:right;
+}
+
+.btn_meGusta, .btn_follow, .group_btn_compartir, .group_btn_compartir span{
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.btn_meGusta{
+	margin-right:10px;
+}
+
+.btn_follow{
+	margin-right:25px;
+}
+
+.group_btn_compartir span{
+	margin-right:6px;
+}
+
+.group_btn_compartir{
+	font-family:'BebasNeue';
+	color:#000;
+	font-size:19px;
+	line-height:19px;
+}
+
+.bloque_comentarios{
+	display:block;
+	margin:50px 0 50px 0;
 }
 
 /* FOOTER */
