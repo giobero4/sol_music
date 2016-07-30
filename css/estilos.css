@@ -1064,9 +1064,206 @@ body{
 	text-decoration:underline;
 }
 
+/* SECCIÓN CURSOS ACADEMIA SOL MUSIC */ 
+
+.academia_productos.col-md-12{
+	display:block;
+	height:auto;
+	margin:40px 0 40px 0;
+	padding:0 49px;
+}
+
+.contenedor_cursos_academia{
+	display:block;
+	height:auto;
+}
+
+.menu_sol_music_breadcrumbs{
+	display:block;
+	margin-bottom:35px;
+}
+
+.menu_sol_music_breadcrumbs ul{
+	display:block;
+	list-style-type:none;
+	text-align:right;
+}
+
+.menu_sol_music_breadcrumbs ul li{
+	display:inline-block;
+}
+
+.menu_sol_music_breadcrumbs ul li a{
+	font-family:'AvantGardEF-BookCond-Regular';
+	color:#666;
+	font-size:16px;
+	letter-spacing:1px;
+	opacity:1;
+}
+
+.menu_sol_music_breadcrumbs ul li a:hover{
+	opacity:0.7;
+}
+
+.menu_sol_music_breadcrumbs ul li:last-child a:after{
+	content:'';
+}
+
+.menu_sol_music_breadcrumbs ul li a:after{
+	content:' /';
+}
+
+.menu_sol_music_breadcrumbs ul li a.active{
+	color:#000;
+	font-weight:bold;
+}
+
+.menu_sol_music_breadcrumbs ul li a.active:hover{
+	opacity:1;
+}
+
+.menu_cursos_academia{
+	display:block;
+	height:auto;
+}
+
+.menu_cursos_academia ul{
+	display:block;
+	list-style-type:none;
+	text-align:center;
+}
+
+.menu_cursos_academia ul li:nth-child(2n+1){
+	display:inline-block;
+	margin: 0 3.5% 3.5% 0;
+	padding:0;
+	height:auto;
+}
+
+.menu_cursos_academia ul li:nth-child(2n){
+	display:inline-block;
+	margin:0 0 3.5% 0;
+	padding:0;
+}
+
+.menu_cursos_academia ul li a{
+	width:100%;
+	max-width:550px;
+	height:320px;
+	position:relative;
+	overflow:hidden;
+	background:#000;
+}
+
+.menu_cursos_academia ul li a .sombra{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+	width:100%;
+	height:320px;
+	box-shadow:inset 0px 0px 20px 2px #000;
+	-moz-box-shadow:inset 0px 0px 20px 2px #000;
+	-o-box-shadow:inset 0px 0px 20px 2px #000;
+	-ms-box-shadow:inset 0px 0px 20px 2px #000;
+	-webkit-box-shadow:inset 0px 0px 20px 2px #000;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	opacity:1;
+}
+
+.menu_cursos_academia ul li a:hover .sombra{
+	opacity:0.9;
+}
+
+.menu_cursos_academia ul li a img{
+	position:relative;
+	width:100%;
+	height:auto;
+	top:0%;
+	left:0%;
+	opacity:1;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.menu_cursos_academia ul li a:hover img{
+	width:110%;
+	height:auto;
+	top:-3%;
+	left:-4%;
+	opacity:0.7;
+}
+
+.nombre_curso{
+	display:block;
+	position:absolute;
+	background:#FFF;
+	width:192px;
+	height:46px;
+	z-index:1;
+	box-shadow: 9px 4px 17px 0px #000;
+	-moz-box-shadow: 9px 4px 17px 0px #000;
+	-o-box-shadow: 9px 4px 17px 0px #000;
+	-ms-box-shadow: 9px 4px 17px 0px #000;
+	-webkit-box-shadow: 9px 4px 17px 0px #000;
+}
+
+.violin, .guitarra, .bateria, .piano, .canto{
+	font-family:'BebasNeue';
+	font-size: 37px;
+    line-height: 52px;
+    top:12%;
+	right:0%;
+	text-align:left;
+	padding-left:20px;
+}
+
+.violin{
+	color:#824100;
+}
+
+.guitarra{
+	color:#990000;
+}
+
+.bateria{
+	color:#423220;
+}
+
+.piano, .canto{
+	color:#000;
+}
+
+.canto{
+	top:75%;
+	left:0%;
+	text-align:right;
+	padding-right:26px;
+}
+
+.cajonPeruano{
+	font-family:'BebasNeue';
+	font-size: 37px;
+    line-height: 52px;
+	color:#875817;
+	top:75%;
+	right:0%;
+	width:248px;
+	text-align:left;
+	padding-left:20px;
+}
+
 /* ACADEMIA SOL MUSIC */
 
-.academia_productos{
+/*.academia_productos{
 	display:block;
 	height:auto;
 	margin-top:45px;
@@ -1146,8 +1343,24 @@ body{
 	max-width:1211px;
 }
 
+#bateria{
+	display:none;
+	margin:0 auto 54px auto;
+	box-sizing:border-box;
+	height:auto;
+	max-width:1211px;
+}
+
 #guitarra{
-	display:block;
+	display:none;
+	margin:0 auto 54px auto;
+	box-sizing:border-box;
+	height:auto;
+	max-width:1211px;
+}
+
+#canto{
+	display:none;
 	margin:0 auto 54px auto;
 	box-sizing:border-box;
 	height:auto;
@@ -1160,19 +1373,19 @@ body{
 	vertical-align:top;
 }
 
-#guitarra .contenedor{
+#guitarra .contenedor, #bateria .contenedor, #canto .contenedor{
 	display:inline-block;
 	width:56%;
 	vertical-align:top;
 }
 
-#violin .contenido_cursos_academia, #guitarra .contenido_cursos_academia{
+#violin .contenido_cursos_academia, #guitarra .contenido_cursos_academia, #bateria .contenido_cursos_academia, #canto .contenido_cursos_academia{
 	border:3px solid #000;
 	padding:30px 30px;
 	margin-bottom:30px;
 }
 
-#violin .contenido_cursos_academia.color_celeste, #guitarra .contenido_cursos_academia.color_celeste{
+#violin .contenido_cursos_academia.color_celeste, #guitarra .contenido_cursos_academia.color_celeste, #bateria .contenido_cursos_academia.color_celeste, #canto .contenido_cursos_academia.color_celeste{
 	background:rgba(162,217,247,0.5);
 }
 
@@ -1180,11 +1393,27 @@ body{
 	background:rgba(219,226,133,0.5);
 }
 
+#bateria .contenido_cursos_academia.color_verde_claro{
+	background:rgba(168,212,175,0.5);
+}
+
 #violin .contenido_cursos_academia.color_naranja, #guitarra .contenido_cursos_academia.color_naranja{
 	background:rgba(239,127,26,0.5);
 }
 
-#piano .contenido_cursos_academia:last-child, #violin .contenido_cursos_academia:last-child, #guitarra .contenido_cursos_academia:last-child{
+#bateria .contenido_cursos_academia.color_amarillo_claro{
+	background:rgba(254,204,0,0.5);
+}
+
+#canto .contenido_cursos_academia.color_melon_claro{
+	background:rgba(255,247,178,0.5);
+}
+
+#canto .contenido_cursos_academia.color_rosado{
+	background:rgba(245,178,182,0.5);
+}
+
+#piano .contenido_cursos_academia:last-child, #violin .contenido_cursos_academia:last-child, #bateria .contenido_cursos_academia:last-child, #guitarra .contenido_cursos_academia:last-child{
 	margin-bottom:0px;
 }
 
@@ -1225,7 +1454,7 @@ body{
 	height:auto;
 }
 
-#piano .img_curso img, #violin .img_curso img, #guitarra .img_curso img{
+#piano .img_curso img, #violin .img_curso img, #bateria .img_curso img, #guitarra .img_curso img{
 	border:0;
 	margin:0;
 	padding:0;
@@ -1247,6 +1476,142 @@ body{
 	width:43%;
 	height:1090px;
 	background:#fefefe url(../images/academia/img_academia_seccion_guitarra.jpg) no-repeat -55px 148px;
+}
+
+#canto .img_curso{
+	display:inline-block;
+	width:43%;
+	height:875px;
+	background:#fefefe url(../images/academia/img_academia_seccion_canto.jpg) no-repeat center bottom;
+}*/
+
+/* SECCIÓN BLOG */
+
+.blog{
+	display:block;
+	position:relative;
+	height:auto;
+	padding:0;
+}
+
+.seccion_navegacion_blog{
+	display:block;
+	position:relative;
+	height:auto;
+	padding-top:50px;
+	padding-left:49px;
+}
+
+.blog_categoria_titulo{
+	display:block;
+	width:100%;
+	max-width:301px;
+	height:42px;
+	background:#000;
+	margin-bottom:41px;
+}
+
+.blog_categoria_titulo h1{
+	display: block;
+    line-height: 45px;
+    font-family: 'BebasNeue';
+    color: #FFF;
+    font-size: 34px;
+    text-align: left;
+    padding-left:25px;
+}
+
+.contenedor_menu_blog{
+	display:block;
+	margin-bottom:40px;
+}
+
+.menu_categorias_blog, .menu_sub_categorias_blog{
+	display:block;
+	list-style-type: none;
+	margin-left:25px;
+}
+
+/*.menu_categorias_productos{
+	width: 100%;
+    max-width: 216px;
+}*/
+
+.menu_sub_categorias_blog{
+	display:none;
+}
+
+.menu_categorias_blog li a, .menu_sub_categorias_blog li a{
+	font-family:'AvantGardEF-BookCond-Regular';
+	color:#000;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	margin-left:0px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	background:#FFF;
+	padding-left:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.menu_categorias_blog li a:hover, .menu_sub_categorias_blog li a:hover{
+	margin-left:20px;
+	background:#000;
+	color:#FFF;
+	padding-left:20px;
+}
+
+.menu_categorias_blog li{
+	font-size:16px;
+	margin-bottom:7px;
+}
+
+.menu_sub_categorias_blog li{
+	font-size:14px;
+	margin-bottom:5px;
+}
+
+.menu_sub_categorias_blog li:first-child{
+	margin-top:10px;
+}
+
+.linea_divisor{
+	background:#808080;
+	height:1px;
+}
+
+.titulo_siguenosFacebook, .titulo_siguenosTwitter{
+	font-family:'BebasNeue';
+	font-size:25px;
+	margin-top:32px;
+	margin-bottom:28px;
+}
+
+.titulo_siguenosFacebook{
+	color:#3B579D;
+}
+
+.titulo_siguenosTwitter{
+	color:#00A7FF;
+}
+
+.contenedor_seccion_facebook, .contenedor_seccion_twitter{
+	display:block;
+	width:100%;
+	height:auto;
+	margin-bottom:32px;
+}
+
+.seccion_blog_entradas{
+	display:block;
+	position:relative;
+	padding-top:50px;
+	padding-right:49px;
+	height:auto;
 }
 
 /* FOOTER */

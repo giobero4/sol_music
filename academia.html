@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/bootstrap/css/bootstrap-theme.css"/>
 	<link rel="stylesheet" href="css/estilos.css"/>
 	<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+	<script type="text/javascript" src="js/seccion_academia.js"></script>
 </head>
 <body>
 
@@ -39,7 +40,7 @@
 						<li class="active"><a href="academia.html" title="ACADEMIA">ACADEMIA</a></li>
 						<li><a href="tienda_musical.html" title="TIENDA">TIENDA</a></li>
 						<li><a href="#" title="SERVICIOS">SERVICIOS</a></li>
-						<li><a href="#" title="BLOG">BLOG</a></li>
+						<li><a href="blog.html" title="BLOG">BLOG</a></li>
 						<li><a href="#" title="CONTACTO">CONTACTO</a></li>
 
 					</ul>
@@ -109,29 +110,87 @@
 			
 			<div class="contenedor_cursos_academia">
 
-				<nav>
-
+				<nav class="menu_sol_music_breadcrumbs">
 					<ul>
 						<li>
-							<a href="#" title="Violín">Violín</a>
+							<a href="#" title="Inicio">Inicio</a>
 						</li>
 						<li>
-							<a href="#" class="active" title="Guitarra">Guitarra</a>
+							<a href="#" title="Academia" class="active">Academia</a>
+						</li>
+					</ul>
+				</nav>
+
+				<nav class="menu_cursos_academia">
+					<ul>
+						<li>
+							<a href="" title="Violín">
+								<div class="sombra"></div>
+								<span class="nombre_curso violin">VIOLÍN</span>
+								<img src="images/academia/img_menu_academia_violin.png" alt="Violín">
+							</a>
 						</li>
 						<li>
-							<a href="#" title="Batería">Batería</a>
+							<a href="" title="Guitarra">
+								<div class="sombra"></div>
+								<span class="nombre_curso guitarra">GUITARRA</span>
+								<img src="images/academia/img_menu_academia_guitarra.png" alt="Guitarra">
+							</a>
 						</li>
 						<li>
-							<a href="#" title="Piano">Piano</a>
+							<a href="" title="Batería">
+								<div class="sombra"></div>
+								<span class="nombre_curso bateria">BATERÍA</span>
+								<img src="images/academia/img_menu_academia_bateria.png" alt="Batería">
+							</a>
 						</li>
 						<li>
-							<a href="#" title="Canto">Canto</a>
+							<a href="" title="Piano">
+								<div class="sombra"></div>
+								<span class="nombre_curso piano">PIANO</span>
+								<img src="images/academia/img_menu_academia_piano.png" alt="Piano">
+							</a>
+						</li>
+						<li>
+							<a href="" title="Canto">
+								<div class="sombra"></div>
+								<span class="nombre_curso canto">CANTO</span>
+								<img src="images/academia/img_menu_academia_canto.png" alt="Canto">
+							</a>
+						</li>
+						<li>
+							<a href="" title="Cajón Peruano">
+								<div class="sombra"></div>
+								<span class="nombre_curso cajonPeruano">CAJÓN PERUANO</span>
+								<img src="images/academia/img_menu_academia_cajonPeruano.png" alt="Cajón Peruano">
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+				<!-- <nav>
+
+					<ul class="tabs">
+						<li>
+							<a href="#violin" title="Violín">Violín</a>
+						</li>
+						<li>
+							<a href="#guitarra" title="Guitarra">Guitarra</a>
+						</li>
+						<li>
+							<a href="#bateria" title="Batería">Batería</a>
+						</li>
+						<li>
+							<a href="#piano" title="Piano">Piano</a>
+						</li>
+						<li>
+							<a href="#canto" title="Canto">Canto</a>
 						</li>
 					</ul>
 
 				</nav>
 
-				<section id="violin">
+				<section id="violin" class="tab_contenido">
 
 					<div class="contenedor">
 
@@ -190,7 +249,7 @@
 
 				</section>
 
-				<section id="guitarra">
+				<section id="guitarra" class="tab_contenido">
 
 					<div class="contenedor">
 
@@ -254,7 +313,76 @@
 
 				</section>
 
-				<section id="piano">
+				<section id="bateria" class="tab_contenido">
+
+					<div class="contenedor">
+
+						<article class="contenido_cursos_academia color_celeste">
+
+							<h2>BÁSICO 1 :</h2>
+							<span>
+								Partes del Instrumento, La Posición, Lectura de Notas, La Partitura - Estructura y Pisadas, La Partitura - Simbología, El compás. Uso del metrónomo y su aprovechamiento.
+							</span>
+
+							<h2>BÁSICO 2 :</h2>
+							<span>
+								Timekeeping: Basics : En el Beat, Fuera del Beat, Combinaciones de 1 Compás. 
+							</span>
+
+							<h2>BÁSICO 3 :</h2>
+							<span>
+								Timekeeping: Ostinatos. Independencia de 4 Extremidades.
+							</span>
+							
+						</article>
+
+						<article class="contenido_cursos_academia color_verde_claro">
+
+							<h2>INTERMEDIO 1 :</h2>
+							<span>
+								Ideas Lineares: Combinaciones de 1 Beat, 2 Beat y Un Compás. Adicionales.
+							</span>
+
+							<h2>INTERMEDIO 2 :</h2>
+							<span>
+								Timekeeping: El Groove, ejemplos de 2 beats. Combinaciones. Patrones de 1 y 2 compases.
+							</span>
+
+							<h2>INTERMEDIO 3 :</h2>
+							<span>
+								Patrones Compuesto. Aplicaciones Rudimentales: Estudio del Single-Stroke, variaciones Hi-hat/Snare. Partituras para bombo. Patrones de 1 compás.
+							</span>
+
+						</article>
+
+						<article class="contenido_cursos_academia color_amarillo_claro">
+
+							<h2>AVANZADO 1 :</h2>
+							<span>
+								Combinaciones de “Sticking”: Variaciones del Paradiddle, Combinaciones Doble y Triple-Stroke. Combinaciones de 3 y 4 voces. 
+							</span>
+
+							<h2>AVANZADO 2 :</h2>
+							<span>
+								Concepto del Doble Stroke: 5,7,9 Stroke Roll. Concepto del “Doubling”: Componentes en 1 Beat, 1 compás e ideas para Fills.
+							</span>
+
+							<h2>AVANZADO 3 :</h2>
+							<span>
+								Double Bombo. Estudios de Left Hand y Right Hand. Concepto del Trecillos. Compases Irregulares. Estudio de Acentos. Embellecimiento de Rudimentos. Soloing.
+							</span>
+
+						</article>
+
+					</div>
+
+					<div class="img_curso">
+						
+					</div>
+
+				</section>
+
+				<section id="piano" class="tab_contenido">
 
 					<article class="contenido_cursos_academia color_melon">
 
@@ -318,6 +446,65 @@
 					</div>
 
 				</section>
+
+				<section id="canto" class="tab_contenido">
+
+					<div class="contenedor">
+
+						<article class="contenido_cursos_academia color_melon_claro">
+
+							<h2>BÁSICO 1 :</h2>
+							<span>
+								Conocimiento del Registro Vocal, Cuidados de la Voz, Conocer que perjudica la voz. Relajación y respiración. Ejercicios físicos de relajación corporal.
+							</span>
+
+							<h2>BÁSICO 2 :</h2>
+							<span>
+								Conocimiento de la impostación. Emisión: Impostar y emitir vocales, vocales con consonantes, palabras. Ejercicios de respiración, teniendo en cuenta la impostación.
+							</span>
+
+							<h2>BÁSICO 3 :</h2>
+							<span>
+								Dosificación, Afinación y Compás.
+							</span>
+							
+						</article>
+
+						<article class="contenido_cursos_academia color_rosado">
+
+							<h2>INTERMEDIO 1 :</h2>
+							<span>
+								Solfeo hablado y entonado conociendo la escala mayor, solfeo entonado: triadas mayores y menores. Incrementando repertorio.
+							</span>
+
+							<h2>INTERMEDIO 2 :</h2>
+							<span>
+								Intervalos de Quintas. Dicción. Vibratos. Inflexión.
+							</span>
+
+						</article>
+
+						<article class="contenido_cursos_academia color_celeste">
+
+							<h2>AVANZADO 1 :</h2>
+							<span>
+								Interpretación. Falsete. Voz de Cabeza, Uso del triángulo de resonancia.
+							</span>
+
+							<h2>AVANZADO 2 :</h2>
+							<span>
+								Desenvolvimiento escénico. Matices. Variación Tímbrica. Raspado y sus variaciones. Versatilidad en estilos musicales.
+							</span>
+
+						</article>
+
+					</div>
+
+					<div class="img_curso">
+						
+					</div>
+
+				</section> -->
 
 			</div>
 
