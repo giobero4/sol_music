@@ -1273,19 +1273,19 @@ body{
 	height:auto;
 }
 
-.curso_violin .franja_nombre_curso{
+.curso_violin .franja_nombre_curso, .curso_bateria .franja_nombre_curso{
 	position:absolute;
     top: 50%;
     right: 0%;
     margin-top:-55.5px;
 }
 
-.curso_violin .franja_nombre_curso img{
+.curso_violin .franja_nombre_curso img, .curso_bateria .franja_nombre_curso img{
 	margin-bottom: 18px;
     margin-left: 21px;
 }
 
-.curso_violin .franja_nombre_curso span{
+.curso_violin .franja_nombre_curso span, .curso_bateria .franja_nombre_curso span{
 	display: block;
     width: 374px;
     height: 49px;
@@ -1374,8 +1374,32 @@ body{
 	background:rgba(219,226,133,0.5);
 }
 
+.color_verde_claro{
+	background:rgba(168,212,175,0.5);
+}
+
 .color_naranja{
 	background:rgba(239,127,26,0.5);
+}
+
+.color_amarillo_claro{
+	background:rgba(254,204,0,0.5);
+}
+
+.color_melon{
+	background:rgba(240,129,67,0.4);
+}
+
+.color_azulViolaceo{
+	background:rgba(116,129,135,0.4);
+}
+
+.color_violeta{
+	background:rgba(174,74,132,0.4);
+}
+
+.titulo_cajonPeruano{
+	margin-bottom:20px;
 }
 
 /* ACADEMIA SOL MUSIC */
